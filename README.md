@@ -12,3 +12,4 @@ Portfolio website made built with React.
 https://malcdiggs.github.io/react-portfolio/
 
 ## Link to Github repo
+https://github.com/MalcDiggs/react-portfolio.git
