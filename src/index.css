@@ -151,11 +151,11 @@ footer a:hover {
 
 #btns-projects Button a {
   text-decoration: none;
-  color:rgb(66, 13, 22);
+  color:rgb(138, 114, 118);
 }
 
 #btns-projects Button:hover {
-  background-color: rgb(66, 13, 22);
+  background-color: rgb(139, 114, 118);
 }
 
 #spacecards {

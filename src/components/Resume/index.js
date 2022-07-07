@@ -1,19 +1,15 @@
 import React from 'react';
+import credentials from './myResume.png';
 
 function Resume() {
-
   return (
-<div id="container-resume">
-{/* <p>Download my <a href="./myResume.png">resume</a></p> */}
-
-  <section>
-    <h1 id="resume"><i>Resume</i></h1>
-  </section>
-
-
-
-
-          <h2>Front-end Proficiencies</h2>
+    <main id="main">
+      <section id="about" className="about">
+        <div className="container">
+          <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div className="section-title about content">
+              <h2>Resume</h2>
+              <h2>Front-end Proficiencies</h2>
           <ul>
             <li> HTML</li>
             <li> CSS</li>
@@ -33,7 +29,18 @@ function Resume() {
           <li> REST</li>
           <li> MVC</li>
           </ul>
+              <button className="about content resume-btn">
+                <a href={credentials} target="blank">
+                  <span className="resume-btn">
+                    Click here to Download my Resume
+                  </span>
+                </a>
+              </button>
+            </div>
           </div>
+        </div>
+      </section>
+    </main>
   );
 }
 
